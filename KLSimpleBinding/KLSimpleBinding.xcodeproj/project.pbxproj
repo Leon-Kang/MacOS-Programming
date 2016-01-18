@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B53DD0A1C4CAAAD00FF6EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53DD091C4CAAAD00FF6EF7 /* AppDelegate.swift */; };
+		6B53DD0C1C4CAAAD00FF6EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B53DD0B1C4CAAAD00FF6EF7 /* Assets.xcassets */; };
+		6B53DD0F1C4CAAAD00FF6EF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B53DD0D1C4CAAAD00FF6EF7 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B53DD061C4CAAAD00FF6EF7 /* KLSimpleBinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLSimpleBinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B53DD091C4CAAAD00FF6EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B53DD0B1C4CAAAD00FF6EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B53DD0E1C4CAAAD00FF6EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6B53DD101C4CAAAD00FF6EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B53DD031C4CAAAD00FF6EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B53DCFD1C4CAAAD00FF6EF7 = {
+			isa = PBXGroup;
+			children = (
+				6B53DD081C4CAAAD00FF6EF7 /* KLSimpleBinding */,
+				6B53DD071C4CAAAD00FF6EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B53DD071C4CAAAD00FF6EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B53DD061C4CAAAD00FF6EF7 /* KLSimpleBinding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B53DD081C4CAAAD00FF6EF7 /* KLSimpleBinding */ = {
+			isa = PBXGroup;
+			children = (
+				6B53DD091C4CAAAD00FF6EF7 /* AppDelegate.swift */,
+				6B53DD0B1C4CAAAD00FF6EF7 /* Assets.xcassets */,
+				6B53DD0D1C4CAAAD00FF6EF7 /* MainMenu.xib */,
+				6B53DD101C4CAAAD00FF6EF7 /* Info.plist */,
+			);
+			path = KLSimpleBinding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B53DD051C4CAAAD00FF6EF7 /* KLSimpleBinding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53DD131C4CAAAD00FF6EF7 /* Build configuration list for PBXNativeTarget "KLSimpleBinding" */;
+			buildPhases = (
+				6B53DD021C4CAAAD00FF6EF7 /* Sources */,
+				6B53DD031C4CAAAD00FF6EF7 /* Frameworks */,
+				6B53DD041C4CAAAD00FF6EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLSimpleBinding;
+			productName = KLSimpleBinding;
+			productReference = 6B53DD061C4CAAAD00FF6EF7 /* KLSimpleBinding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B53DCFE1C4CAAAD00FF6EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LeonKang;
+				TargetAttributes = {
+					6B53DD051C4CAAAD00FF6EF7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6B53DD011C4CAAAD00FF6EF7 /* Build configuration list for PBXProject "KLSimpleBinding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B53DCFD1C4CAAAD00FF6EF7;
+			productRefGroup = 6B53DD071C4CAAAD00FF6EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B53DD051C4CAAAD00FF6EF7 /* KLSimpleBinding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B53DD041C4CAAAD00FF6EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53DD0C1C4CAAAD00FF6EF7 /* Assets.xcassets in Resources */,
+				6B53DD0F1C4CAAAD00FF6EF7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B53DD021C4CAAAD00FF6EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53DD0A1C4CAAAD00FF6EF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B53DD0D1C4CAAAD00FF6EF7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B53DD0E1C4CAAAD00FF6EF7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B53DD111C4CAAAD00FF6EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B53DD121C4CAAAD00FF6EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B53DD141C4CAAAD00FF6EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KLSimpleBinding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kl.KLSimpleBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B53DD151C4CAAAD00FF6EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KLSimpleBinding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kl.KLSimpleBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B53DD011C4CAAAD00FF6EF7 /* Build configuration list for PBXProject "KLSimpleBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53DD111C4CAAAD00FF6EF7 /* Debug */,
+				6B53DD121C4CAAAD00FF6EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53DD131C4CAAAD00FF6EF7 /* Build configuration list for PBXNativeTarget "KLSimpleBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53DD141C4CAAAD00FF6EF7 /* Debug */,
+				6B53DD151C4CAAAD00FF6EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B53DCFE1C4CAAAD00FF6EF7 /* Project object */;
+}
